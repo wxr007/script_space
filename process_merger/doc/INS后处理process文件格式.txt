@@ -1,0 +1,11 @@
+$IMUS, week, timeofweek(s), accel_x(m/s^2), accel_y(m/s^2), accel_z(m/s^2), gyro_x(deg/s), gyro_y(deg/s), gyro_z(deg/s)
+
+$GPGNSS, week, timeofweek(s), latitude(deg), longitude(deg), height(m), lat_std(m), lon_std(m), hgt_std(m), soltype
+(soltype 用1，2，4，5)
+
+$GPVELS, week, timeofweek(s), horspd(m/s), trkgnd(deg), vertspd(m/s)
+or
+$GPVELF, week, timeofweek(s), horspd(m/s), trkgnd(deg), vertspd(m/s), vel_n_std(m/s), vel_e_std(m/s), vel_u_std(m/s)
+
+$ODOS, week, timeofweek(s), speed(m/s), fwd(1前进，0后退)
+
